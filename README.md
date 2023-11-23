@@ -9,7 +9,7 @@ GS-msa is a microservice-based object detection deep learning service. By recons
 * Architecture  
 * Installation  
 
-### Requirements
+## Requirements
 |            | Version (Recommended) |  
 |------------|:---------------------:|  
 | Python     |          3.8          |  
@@ -18,7 +18,7 @@ GS-msa is a microservice-based object detection deep learning service. By recons
 | Opencv     |         4.4.0         |  
 | Flask      |         2.0.2         |  
 
-### Architecture
+## Architecture
 
 GS-Msa consists of five main parts: FrontMicroservice, Preprocessing Microservice, Inferencing Microservice, Postprocessing Microservice, and Metadata Sharing service.
 The figure below describes in more detail the structure and roles of these independently operating microservices. 
@@ -33,8 +33,7 @@ To make efficient use of resources, different networks are applied depending on 
 ![mded-architecture2](./images/sensors-23-04712-g003.webp)
 
 
-### Installation
-<hr/>
+## Installation
 
 For Training
 ```bash
